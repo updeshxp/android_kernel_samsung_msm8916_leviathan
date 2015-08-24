@@ -599,6 +599,14 @@ config FORCE_FAST_CHARGE
  	  This allows users to override default charge rate for both USB and AC
  	  charger input current 
 
+config MSM_LIMITER
+	bool "MSM Frequency Limiter Driver"
+	default y
+	help
+	  The MSM Frequency Limiter Driver controls max frequency limit for each CPU
+	  to desired value on suspend/resume
+
+
 source "drivers/soc/qcom/memshare/Kconfig"
 
 source "drivers/soc/qcom/samsung/Kconfig"

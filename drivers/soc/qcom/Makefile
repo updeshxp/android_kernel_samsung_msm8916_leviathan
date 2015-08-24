@@ -82,3 +82,4 @@ obj-$(CONFIG_MSM_PACMAN)        += msm_pacman.o
 obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
 
 obj-y		+= samsung/
+obj-$(CONFIG_MSM_LIMITER) += msm_limiter.o
