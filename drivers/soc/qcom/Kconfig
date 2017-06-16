@@ -599,6 +599,10 @@ config FORCE_FAST_CHARGE
  	  This allows users to override default charge rate for both USB and AC
  	  charger input current 
 
+config STATE_NOTIFIER
+	bool "State Notifier"
+	default y
+
 config MSM_LIMITER
 	bool "MSM Frequency Limiter Driver"
 	default y
