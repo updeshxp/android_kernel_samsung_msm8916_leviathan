@@ -37,6 +37,9 @@ modules.builtin
 /tags
 /TAGS
 /Bulgaricus
+/ares-tools
+/ares-out
+/ready
 /linux
 /vmlinux
 /vmlinuz
