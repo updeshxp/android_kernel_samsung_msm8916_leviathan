@@ -460,7 +460,7 @@ static struct pll_vote_clk gpll2_clk_src = {
 	.base = &virt_bases[GCC_BASE],
 	.c = {
 		.parent = &xo_clk_src.c,
-		.rate = 930000000,
+		.rate = 990000000,
 		.dbg_name = "gpll2_clk_src",
 		.ops = &clk_ops_pll_vote,
 		CLK_INIT(gpll2_clk_src.c),
